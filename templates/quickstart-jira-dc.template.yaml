@@ -611,7 +611,7 @@ Parameters:
     Description: The port number for Catalina to use when automatically redirecting a non-SSL connector actioning a redirect to a SSL URI.
     Type: Number
   QSS3BucketName:
-    Default: 'aws-quickstart'
+    Default: 'jirastackconfig'
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
     ConstraintDescription: Quick Start bucket name can include numbers, lowercase
       letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen
